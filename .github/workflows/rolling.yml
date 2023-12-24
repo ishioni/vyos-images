@@ -10,7 +10,7 @@ env:
   VYOS_URL: https://github.com/vyos/vyos-build
   VYOS_BRANCH: sagitta
   VYOS_ARCH: amd64
-  VYOS_BUILD_BY: 98030736+rosey-bot[bot]@users.noreply.github.com
+  VYOS_BUILD_BY: 116219931+ishioni-bot[bot]@users.noreply.github.com
   VYOS_BUILD_TYPE: release
   VYOS_VERSION: 1.4-rolling
 
@@ -65,7 +65,10 @@ jobs:
               --custom-package "jo" \
               --custom-package "moreutils" \
               --custom-package "tree" \
-              --custom-package "vim"
+              --custom-package "vim" \
+              --custom-package "mstflint" \
+              --custom-package "powertop" \
+              --custom-package "powercap-utils"
 
       - name: Create release with artifact
         uses: ncipollo/release-action@6c75be85e571768fa31b40abf38de58ba0397db5 # v1.13.0
