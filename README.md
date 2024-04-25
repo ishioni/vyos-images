@@ -1,7 +1,3 @@
-# vyos
+### Notice of archival (2024-04-25)
 
-VyOS **1.4-rolling** with additional packages.
-
-## Packages
-
-View the [Github workflow](.github/workflows/rolling.yml) to see what packages are added.
+Due to the way VyOS has been [handling their community recently](https://blog.vyos.io/community-contributors-userbase-and-lts-builds) I have decided to step away from VyOS as my router platform and have archived this repository.
